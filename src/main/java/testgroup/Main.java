@@ -31,8 +31,8 @@ public class Main {
         //POST
         Map<String, Object> postAddUser = new HashMap<>();
         postAddUser.put("id", 3);
-        postAddUser.put("name", "Ivan");
-        postAddUser.put("lastName", "Petrov");
+        postAddUser.put("name", "James");
+        postAddUser.put("lastName", "Brown");
         postAddUser.put("age", 30);
 
         HttpEntity<Map<String, Object>> requestEntity = new HttpEntity<>(postAddUser, requestHeaders);
